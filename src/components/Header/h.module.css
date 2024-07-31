@@ -1,0 +1,5 @@
+.topicWrapper {
+    display: flex;
+    gap: 3vw;
+    font-size: 18px;
+}
