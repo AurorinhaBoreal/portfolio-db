@@ -12,7 +12,7 @@
 
 .logo_textWrapper {
     gap: 50px;
-    font-size: 18px;
+    font-size: 1.2vw;
     align-items: center;
     font-family: "Supermolot";
     font-weight: 600;
@@ -21,7 +21,7 @@
 .iconsWrapper {
     margin-right: 120px;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .icons {
