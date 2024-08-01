@@ -10,3 +10,19 @@
     --c-white: #fff;
     --c-black: #000;
 }
+
+
+/* FONTS */
+@font-face {
+    font-family: Supermolot;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/supermolot-regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Supermolot Bold;
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/supermolot-bold.ttf) format("truetype");
+}
