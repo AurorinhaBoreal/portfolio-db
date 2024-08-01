@@ -1,5 +1,30 @@
-.topicWrapper {
-    display: flex;
-    gap: 3vw;
+.headerBody {
+    height: 90px;
+    width: auto;
+    background-color: #BEE7F9;
+    justify-content: space-between;
+}
+
+.logoContainer {
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.logo_textWrapper {
+    gap: 50px;
     font-size: 18px;
+    align-items: center;
+    font-family: "Supermolot";
+    font-weight: 600;
+}
+
+.iconsWrapper {
+    margin-right: 120px;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
 }
