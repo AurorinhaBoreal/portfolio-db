@@ -1,0 +1,42 @@
+.bodyContainer {
+    margin: 5vw 20vw 0 20vw;
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 50% 50%;
+    font-family: "Supermolot";
+    gap: 3vw;
+}
+
+.infoWrapper {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.introText {
+    font-weight: bolder;
+}
+
+.myName {
+    font-size: 3vw;
+    font-family: "Roboto Flex";
+}
+
+.role {
+    font-weight: 400;
+}
+
+.myImage {
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+}
+
+.aboutTitle {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.skillTitle {
+    font-size: 1.5vw;
+    font-weight: bold;
+}

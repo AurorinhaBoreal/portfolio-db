@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--c-gray);
 }
 
 :root {
     /* COLORS */
     --c-lightBlue: #BEE7F9;
+    --c-gray: #e6e6e6
     --c-white: #fff;
     --c-black: #000;
 }
