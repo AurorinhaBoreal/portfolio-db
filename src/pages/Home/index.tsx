@@ -3,6 +3,7 @@ import styles from "./h.module.css"
 import Header from "../../components/Header"
 import myImage from "../../assets/myImage.jpg"
 import SkillCard from "../../components/SkillCard"
+import Footer from "../../components/Footer"
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
             <SkillCard />
           </Box>
         </Box>
+        <Footer />
     </>
   )
 }
