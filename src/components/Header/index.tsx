@@ -18,7 +18,7 @@ export default function Header() {
         <Flex className={styles.logoContainer}>
           <Image src={dbHeader} onClick={DB} _hover={{ cursor: "pointer"}}/>
         </Flex>
-        <Link to={"/home"}>
+        <Link to={"/"}>
           <Text className={styles.hText}>Sobre</Text>
         </Link>
         <Text className={styles.hText} onClick={CV} _hover={{ cursor: "pointer"}}>Curriculo</Text>
