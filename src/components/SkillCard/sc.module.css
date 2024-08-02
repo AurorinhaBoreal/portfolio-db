@@ -1,0 +1,19 @@
+.cardWrapper {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1vw;
+    align-items: center;
+}
+
+.dotWrapper {
+    margin: 7px 0;
+    gap: 4px
+}
+
+@media all and (max-width: 992px) { 
+    .cardWrapper {
+        width: auto;
+        font-size: 1.8vw;
+    }
+}
