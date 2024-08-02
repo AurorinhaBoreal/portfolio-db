@@ -10,8 +10,12 @@
     margin-right: 30px;
 }
 
+.hText {
+    font-size: 18px;
+}
+
 .logo_textWrapper {
-    gap: 50px;
+    gap: 3vw;
     font-size: 1.2vw;
     align-items: center;
     font-family: "Supermolot";
@@ -19,7 +23,7 @@
 }
 
 .iconsWrapper {
-    margin-right: 120px;
+    margin-right: 12vw;
     align-items: center;
     gap: 40px;
 }

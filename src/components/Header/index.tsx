@@ -18,13 +18,13 @@ export default function Header() {
         <Flex className={styles.logoContainer}>
           <Image src={dbHeader} onClick={DB} _hover={{ cursor: "pointer"}}/>
         </Flex>
-        <Link to={"/projects"}>
+        <Link to={"/home"}>
+          <Text className={styles.hText}>Sobre</Text>
+        </Link>
+        <Text className={styles.hText} onClick={CV} _hover={{ cursor: "pointer"}}>Curriculo</Text>
+        <Link className={styles.hText} to={"/projects"}>
           <Text>Projetos</Text>
         </Link>
-        <Link to={"/home"}>
-          <Text>Sobre</Text>
-        </Link>
-        <Text onClick={CV} _hover={{ cursor: "pointer"}}>Curriculo</Text>
       </Flex>
       <Flex className={styles.iconsWrapper}>
         <Image className={styles.icons} src={githubImg} onClick={GITHUB} _hover={{ cursor: "pointer"}}/>
