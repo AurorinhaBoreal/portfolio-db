@@ -1,8 +1,8 @@
 .bodyContainer {
-    margin: 5vw 22vw 5vw 22vw;
+    margin: 5vw 20vw 5vw 20vw;
     display: grid;
     grid-template-rows: 2;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     font-family: "Supermolot";
     gap: 3vw;
 }
@@ -19,6 +19,7 @@
 .myName {
     font-size: 3vw;
     font-family: "Roboto Flex";
+    object-fit: cover;
 }
 
 .role {
@@ -26,9 +27,7 @@
 }
 
 .myImage {
-    height: 260px;
-    width: auto;
-    object-fit: cover;
+    height: 100%;
 }
 
 .aboutTitle {
@@ -36,7 +35,25 @@
     font-weight: bold;
 }
 
+.aboutInfo {
+    margin-bottom: 1vw;
+}
+
 .skillTitle {
     font-size: 1.5vw;
     font-weight: bold;
+}
+
+@media all and (max-width: 992px) { 
+    .bodyContainer {
+        grid-template-columns: 100%;
+        text-align: justify;
+    }
+    .infoWrapper {
+        text-align: center;
+    }
+    .aboutTitle {
+        font-size: 2.5vw;
+        text-align: center;
+    }
 }
