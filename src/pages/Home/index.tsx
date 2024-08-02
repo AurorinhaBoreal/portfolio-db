@@ -2,6 +2,7 @@ import { Box, Image, Text } from "@chakra-ui/react"
 import styles from "./h.module.css"
 import Header from "../../components/Header"
 import myImage from "../../assets/myImage.jpg"
+import SkillCard from "../../components/SkillCard"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           </Box>
           <Box className={styles.skillWrapper}>
             <Text className={styles.skillTitle}>Habilidades:</Text>
+            <SkillCard />
           </Box>
         </Box>
     </>
