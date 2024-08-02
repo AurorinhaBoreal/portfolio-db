@@ -1,5 +1,5 @@
 .cardWrapper {
-    width: 20vw;
+    width: 30vw;
     display: flex;
     justify-content: space-between;
     font-size: 1.1vw;
@@ -7,10 +7,10 @@
 }
 
 .dotWrapper {
+    display: flex;
     height: 1.4vw;
-    width: 3vw;
     margin: 7px 0;
-    gap: 4px
+    gap: 4px;
 }
 
 @media all and (max-width: 992px) { 
