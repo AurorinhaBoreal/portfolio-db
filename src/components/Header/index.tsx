@@ -16,7 +16,7 @@ export default function Header() {
     <Flex className={styles.headerBody}>
       <Flex className={styles.logo_textWrapper}>
         <Flex className={styles.logoContainer}>
-          <Image src={dbHeader} onClick={DB} _hover={{ cursor: "pointer"}}/>
+          <Image src={dbHeader} onClick={DB} _hover={{ cursor: "pointer"}} height={"6vw"} width={"auto"}/>
         </Flex>
         <Link to={"/"}>
           <Text className={styles.hText}>Sobre</Text>
