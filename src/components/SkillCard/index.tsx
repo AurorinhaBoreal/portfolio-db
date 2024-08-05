@@ -9,7 +9,7 @@ export default function SkillCard() {
   const skillLevels = getSkillLevel()
 
   const handleLevel = (full: number) => {
-    let skill = []
+    const skill = []
     const empty = 5 - full
     
     for (let i = 1; i <= full; i++) {
