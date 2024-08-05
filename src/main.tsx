@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import theme from './styles/theme';
 import "./styles/main.css"
 import "./fonts/supermolot-regular.ttf"
 import "./fonts/supermolot-bold.ttf"
@@ -26,7 +25,7 @@ const router = createBrowserRouter([
 ])
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ChakraProvider theme={theme}>
+    <ChakraProvider>
       <RouterProvider router={router} />
     </ChakraProvider>
   </React.StrictMode>,

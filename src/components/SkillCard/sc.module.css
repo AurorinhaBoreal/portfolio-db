@@ -13,9 +13,19 @@
     gap: 4px;
 }
 
+@media all and (max-width: 1200px) {
+    image {
+        width: 1.5vw;
+        height: 1.5vw
+    }
+}
 @media all and (max-width: 992px) { 
     .cardWrapper {
         width: auto;
         font-size: 1.8vw;
+    }
+    image {
+        width: 1vw;
+        height: 1vw
     }
 }
