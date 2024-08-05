@@ -1,0 +1,59 @@
+.bodyContainer {
+    margin: 5vw 20vw 5vw 20vw;
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 40% 60%;
+    font-family: "Supermolot";
+    gap: 3vw;
+}
+
+.infoWrapper {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.introText {
+    font-weight: bolder;
+}
+
+.myName {
+    font-size: 3vw;
+    font-family: "Roboto Flex";
+    object-fit: cover;
+}
+
+.role {
+    font-weight: 400;
+}
+
+.myImage {
+    height: 100%;
+}
+
+.aboutTitle {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.aboutInfo {
+    margin-bottom: 1vw;
+}
+
+.skillTitle {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+@media all and (max-width: 992px) { 
+    .bodyContainer {
+        grid-template-columns: 100%;
+        text-align: justify;
+    }
+    .infoWrapper {
+        text-align: center;
+    }
+    .aboutTitle {
+        font-size: 2.5vw;
+        text-align: center;
+    }
+}
