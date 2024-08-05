@@ -22,7 +22,7 @@ export default function Header() {
           <Text className={styles.hText}>Sobre</Text>
         </Link>
         <Text className={styles.hText} onClick={CV} _hover={{ cursor: "pointer"}}>Curriculo</Text>
-        <Link className={styles.hText} to={"/projects"}>
+        <Link className={styles.hText} to={"/projetos"}>
           <Text>Projetos</Text>
         </Link>
       </Flex>
