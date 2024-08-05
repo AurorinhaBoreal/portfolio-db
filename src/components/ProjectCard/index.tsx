@@ -18,7 +18,7 @@ export default function ProjectCard() {
     }
 
     const handleFormat = (index: number) => {
-        let tagLength: number = tags[index].length
+        const tagLength: number = tags[index].length
         let formattedTags: string = ""
         for (let i = 0; i < tagLength-1; i++) {
             formattedTags = formattedTags + tags[index][i]+", "
