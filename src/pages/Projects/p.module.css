@@ -1,0 +1,23 @@
+.projectsContainer {
+    margin: 2vw 15vw 5vw 15vw;
+}
+
+.title1 {
+    font-size: 2vw;
+    font-family: "Supermolot";
+    font-weight: 900;
+}
+
+.title2 {
+    font-size: 4vw;
+    font-family: "Roboto Flex";
+    font-weight: 750;
+    margin-bottom: 2vw;
+}
+
+.cardWrapper {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+}
