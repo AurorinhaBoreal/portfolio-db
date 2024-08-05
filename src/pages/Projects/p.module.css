@@ -21,3 +21,16 @@
     flex-wrap: wrap;
     gap: 4vw;
 }
+
+@media all and (max-width: 1090px) {
+    .title1 {
+        font-size: 20px;
+    }
+    .title2 {
+        font-size: 40px;
+    }
+    .cardWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}

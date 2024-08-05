@@ -75,6 +75,8 @@
     .nameWrapper {
         display: flex;
         flex-direction: column;
-        
+    }
+    .skillTitle {
+        font-size: 2vw;
     }
 }
