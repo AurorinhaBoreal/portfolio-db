@@ -41,7 +41,6 @@
 
 .cardDesc {
     margin-top: 0.5vw;
-    /* height: 200px; */
     font-size: 1vw;
     align-items: center;
     margin-left: 0.8vw;
@@ -62,4 +61,27 @@
     color: var(--c-white) !important;
     width: 90%;
     
+}
+
+@media all and (max-width: 1090px) {
+    .cardBody {
+        width: 300px;
+    }
+    .cardTitle {
+        font-size: 20px;
+    }
+    .cardTags {
+        font-size: 12px;
+    }
+    .cardDesc {
+        font-size: 14px;
+    }
+    .buttonContainer {
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .btn {
+        width: 45%;
+    }
 }
