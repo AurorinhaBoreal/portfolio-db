@@ -16,13 +16,13 @@ export default function Header() {
     <Flex className={styles.headerBody}>
       <Flex className={styles.logo_textWrapper}>
         <Flex className={styles.logoContainer}>
-          <Image src={dbHeader} onClick={DB} _hover={{ cursor: "pointer"}} height={"6vw"} width={"auto"}/>
+          <Image src={dbHeader} onClick={DB} _hover={{ cursor: "pointer"}} height={"3vw"} width={"auto"}/>
         </Flex>
-        <Link to={"/home"}>
+        <Link to={"/"}>
           <Text className={styles.hText}>Sobre</Text>
         </Link>
         <Text className={styles.hText} onClick={CV} _hover={{ cursor: "pointer"}}>Curriculo</Text>
-        <Link className={styles.hText} to={"/projects"}>
+        <Link className={styles.hText} to={"/projetos"}>
           <Text>Projetos</Text>
         </Link>
       </Flex>

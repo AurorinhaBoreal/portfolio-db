@@ -22,12 +22,22 @@
     object-fit: cover;
 }
 
+.myPronoums {
+    display: flex;
+    font-size: 1.2vw;
+    align-items: end;
+    margin-bottom: 1vw;
+    margin-left: 0.5vw;
+}
+
 .role {
     font-weight: 400;
 }
 
 .myImage {
     height: 100%;
+    width: auto;
+    object-fit: cover;
 }
 
 .aboutTitle {
@@ -55,5 +65,16 @@
     .aboutTitle {
         font-size: 2.5vw;
         text-align: center;
+    }
+    .myPronoums {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        margin-bottom: 0.5vw;
+    }
+    .nameWrapper {
+        display: flex;
+        flex-direction: column;
+        
     }
 }

@@ -1,4 +1,4 @@
-import { Box, Image, Text } from "@chakra-ui/react"
+import { Box, Flex, Image, Text } from "@chakra-ui/react"
 import styles from "./h.module.css"
 import Header from "../../components/Header"
 import myImage from "../../assets/myImage.jpg"
@@ -12,7 +12,11 @@ export default function Home() {
         <Box className={styles.bodyContainer}>
           <Box className={styles.infoWrapper}>
               <Text className={styles.introText}>Olá, meu nome é</Text>
-              <Text className={styles.myName}>Aurora Kruschewsky</Text>
+              <Flex className={styles.nameWrapper}>
+                <Text className={styles.myName}>Aurora Kruschewsky</Text>
+                <Text className={styles.myPronoums}>(Ela/Dela)</Text>
+              </Flex>
+              
               <Text className={styles.role}>Sou desenvolvedora FullStack na DBServer</Text>
           </Box>
           <Box display={"flex"}>
@@ -30,7 +34,7 @@ export default function Home() {
               No ultimo semestre do curso eu comecei o que eu me encontro atualmente que é o Técnico em Desenvolvimento e Sistemas. Nele entrei de cabeça no mundo da programação, começando pelo básico HTML e JavaScript e vendo diversas outras linguagens e frameworks, como C#, Node e React.
             </Text>
             <Text className={styles.aboutInfo}>
-              Atualmente meu foco está em Java e o maravilhoso React.
+              Atualmente estou na Unidade Ar e meu foco está em Java e o maravilhoso React.
             </Text>
           </Box>
           <Box className={styles.skillWrapper}>
