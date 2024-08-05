@@ -1,0 +1,34 @@
+.headerBody {
+    height: 90px;
+    width: auto;
+    background-color: #BEE7F9;
+    justify-content: space-between;
+}
+
+.logoContainer {
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.hText {
+    font-size: 18px;
+}
+
+.logo_textWrapper {
+    gap: 3vw;
+    font-size: 1.2vw;
+    align-items: center;
+    font-family: "Supermolot";
+    font-weight: 600;
+}
+
+.iconsWrapper {
+    margin-right: 12vw;
+    align-items: center;
+    gap: 40px;
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
+}

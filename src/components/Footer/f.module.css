@@ -1,0 +1,12 @@
+.footerContainer {
+    display: flex;
+    background-color: var(--c-lightBlue);
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLogo {   
+    height: 70px;
+    width: auto;
+}
