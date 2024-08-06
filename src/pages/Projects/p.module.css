@@ -34,3 +34,14 @@
         align-items: center;
     }
 }
+
+@media all and (max-width: 500px) {
+    .projectsContainer {
+        margin: 5vw 0 5vw 0;
+    }
+    .title1, .title2 {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+}

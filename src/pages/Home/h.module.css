@@ -80,3 +80,16 @@
         font-size: 2vw;
     }
 }
+
+@media all and (max-width: 420px) {
+    .introText, .skillTitle, .aboutTitle {
+        font-size: 12px;
+    }
+    .myPronoums, .role {
+        font-size: 8px;
+    }
+    .aboutInfo {
+        text-align: center;
+        font-size: 10px;
+    }
+}
