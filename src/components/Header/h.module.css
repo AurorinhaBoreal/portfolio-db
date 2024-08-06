@@ -32,3 +32,53 @@
     height: 30px;
     width: 30px;
 }
+
+.headerLogo {
+    height: 4vw !important;
+    width: auto !important;
+}
+
+@media all and (max-width: 700px) { 
+    .icons {
+        height: 25px;
+        width: 25px;
+    }
+    
+    .headerLogo {
+        height: 30px !important;
+        width: auto !important;
+    }
+}
+@media all and (max-width: 500px) { 
+    .headerBody {
+        display: flex;
+        justify-content: center;
+    }
+
+    .iconsWrapper {
+        margin: 5vw;
+        gap: 20px;
+    }
+    .icons {
+        height: 20px;
+        width: 20px;
+    }
+    .headerLogo {
+        width: auto !important;
+        height: 20px !important;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .logo-textWrapper {
+        margin: 0px;
+        gap: 0.5vw !important;
+    }
+    li {
+        font-size: 10px;
+    }
+    .headerLogo {
+        height: 0px !important;
+        width: auto !important;
+    }
+}
