@@ -69,19 +69,22 @@
     }
     .cardTitle {
         font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .cardTags {
         font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .cardDesc {
         font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .buttonContainer {
         flex-direction: row;
         justify-content: center;
         margin: 10px 0;
-    }
-    .btn {
-        width: 45%;
     }
 }

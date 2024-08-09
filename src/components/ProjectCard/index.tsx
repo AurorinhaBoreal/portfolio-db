@@ -9,14 +9,6 @@ export default function ProjectCard() {
     const descriptions = getProjectDescription();
     const links = getProjectLink();
 
-    const verifyDeployBtn = (index: number) => {
-        if (links[index].length > 1) {
-            return (
-                <Button className={styles.btn} onClick={() => {handleLink(links[index][1])}}>Acessar</Button>
-            );
-        }
-    }
-
     const handleFormat = (index: number) => {
         const tagLength: number = tags[index].length
         let formattedTags: string = ""
@@ -45,8 +37,7 @@ export default function ProjectCard() {
                         </Box>
                         <Text className={styles.cardDesc}>{descriptions[index]}</Text>
                         <Box className={styles.buttonContainer}>
-                            {verifyDeployBtn(index)}
-                            <Button className={styles.btn} onClick={() => {handleLink(links[index][0])}}>GitHub</Button>
+                            <Button className={styles.btn} onClick={() => {handleLink(links[index][0])}}>Acessar</Button>
                         </Box>
                     </Box>
                 </Box>
