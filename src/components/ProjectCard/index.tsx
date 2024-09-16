@@ -37,7 +37,15 @@ export default function ProjectCard() {
                         </Box>
                         <Text className={styles.cardDesc}>{descriptions[index]}</Text>
                         <Box className={styles.buttonContainer}>
-                            <Button className={styles.btn} onClick={() => {handleLink(links[index][0])}}>Acessar</Button>
+                            {links[index].length > 1 ? (
+                                <>
+                                    <Button className={styles.btn} onClick={() => {handleLink(links[index][1])}}>Acessar</Button>
+                                    <Button className={styles.btn} onClick={() => {handleLink(links[index][0])}}>GitHub</Button>
+                                </>
+                            ) : (
+                                <Button className={styles.btn} onClick={() => {handleLink(links[index][0])}}>GitHub</Button>
+                            )}
+                            
                         </Box>
                     </Box>
                 </Box>
