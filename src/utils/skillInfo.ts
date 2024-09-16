@@ -2,18 +2,19 @@
 export function getSkillName() {
     const skillNames: string[] = [
         "React", 
-        "HTML", 
-        "CSS", 
+        "HTML",
         "TypeScript", 
         "ChakraUI", 
-        "Docker", 
+        "CSS", 
         "Java", 
         "SpringBoot", 
         "Spring JPA", 
-        "CI/CD", 
-        "Node", 
+        "Node",
         "Testes de Integração", 
-        "Testes Unitários"
+        "Testes Unitários",
+        "Git",
+        "Docker",
+        "CI/CD"
     ]
     return skillNames
 }
@@ -27,12 +28,13 @@ export function getSkillLevel() {
         3, 
         3, 
         3, 
+        2, 
+        2,
+        4,
+        3,
         3, 
-        2, 
-        2, 
-        2, 
-        2, 
-        3
+        3, 
+        2
     ]
     return skillLevel
 }

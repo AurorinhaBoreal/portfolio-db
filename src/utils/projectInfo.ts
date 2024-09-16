@@ -67,7 +67,7 @@ export function getProjectLink() {
         ["https://github.com/AurorinhaBoreal/VotacaoCRUD-BackEnd"],
         ["https://github.com/AurorinhaBoreal/VotingCRUD-Cypress"],
         ["https://github.com/AurorinhaBoreal/VotingCRUD-RestAssured"],
-        ["https://github.com/AurorinhaBoreal/PersonCRUD-FrontEnd"],
+        ["https://github.com/AurorinhaBoreal/PersonCRUD-FrontEnd", "https://person-front.onrender.com/"],
         ["https://github.com/AurorinhaBoreal/PersonCRUD-BackEnd"],
         ["https://github.com/AurorinhaBoreal/PersonCRUD-Cypress"],
         ["https://github.com/AurorinhaBoreal/PersonCRUD-RestAssured"],
