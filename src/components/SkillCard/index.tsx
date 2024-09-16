@@ -13,11 +13,11 @@ export default function SkillCard() {
     const empty = 5 - full
     
     for (let i = 1; i <= full; i++) {
-      skill.push(<Image key={"filled"+i} src={fillSkill} height={"20px"} width={"20px"}/>)
+      skill.push(<Image className={styles.skillDot} key={"filled"+i} src={fillSkill} height={"20px"} width={"20px"}/>)
     }
 
     for (let i = 1; i <= empty; i++) {
-      skill.push(<Image key={"empty"+i} src={emptySkill} height={"20px"} width={"20px"}/>)
+      skill.push(<Image className={styles.skillDot} key={"empty"+i} src={emptySkill} height={"20px"} width={"20px"}/>)
     }
     
     return skill
