@@ -13,6 +13,12 @@
     gap: 4px;
 }
 
+.subtitle {
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
 @media all and (max-width: 1200px) {
     image {
         width: 1.5vw;
@@ -46,5 +52,8 @@
     }
     .aboutInfo {
         text-align: center;
+    }
+    .subtitle {
+        font-size: 1.7vw;
     }
 }
